@@ -1,0 +1,6 @@
+[submodule "AnuPpuccin"]
+	path = AnuPpuccin
+	url = https://github.com/AnubisNekhet/AnuPpuccin.git
+[submodule "main_config/.obsidian/themes/AnuPpuccin"]
+	path = main_config/.obsidian/themes/AnuPpuccin
+	url = https://github.com/AnubisNekhet/AnuPpuccin.git

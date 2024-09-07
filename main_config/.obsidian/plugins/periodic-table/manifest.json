@@ -1,0 +1,9 @@
+{
+    "id": "periodic-table",
+    "name": "Periodic Table",
+    "author": "jake-cramer",
+    "description": "View a periodic table in the sidebar",
+    "minAppVersion": "1.3.7",
+    "version": "1.0.1",
+    "isDesktopOnly": true
+}
