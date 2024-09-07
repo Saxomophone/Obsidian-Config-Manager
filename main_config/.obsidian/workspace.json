@@ -1,0 +1,376 @@
+{
+  "main": {
+    "id": "e856a70ad6639e61",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3f2f23003e1a12c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16de09e3951d24ec",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Science/Nuclear Physics/CAT/3.1 Nuclear Physics CAT 2024.pdf",
+                "page": 1,
+                "left": -4,
+                "top": 2,
+                "zoom": 0.8
+              }
+            }
+          },
+          {
+            "id": "8b596a2825b4862e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Nuclear Physics/CAT/Plan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dc79a848ef69e4df",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a323f0fbb1af28a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a7e062bdf8630a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a5b39ae7a3cd3df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Question",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d45dce4df387e21",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "1fe306612e931cfd",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2abb0011b215db87",
+    "type": "split",
+    "children": [
+      {
+        "id": "25e5358c26aef509",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfa3f23d76e9fe4d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "English/Comparative Essay/Draft 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4f5dbba7a23ab62",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "English/Comparative Essay/Draft 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2666949a935f1cba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "37992c29048afb77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "English/Comparative Essay/Draft 1.md"
+              }
+            }
+          },
+          {
+            "id": "26059c3efd11d2b2",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "97700e9fd23bc04d",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e5a799c8294c868",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee2fb7bed4d01165",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f4f8aa715c3e57c6",
+            "type": "leaf",
+            "state": {
+              "type": "periodic-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-importer:Open Importer": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "floating": {
+    "id": "edfc3dfbb2c549b0",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2411683cbc2b5240",
+        "type": "window",
+        "children": [
+          {
+            "id": "3fd34fe541665373",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "44a4033657eadfb4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Comparative Essay/Plan.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6cb231f2acd47bab",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Comparative Essay/Question.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1aff1b6a4e6b0177",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Comparative Essay/Comparative Essay 2024 - Guidance and EG Essay.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0e2475d70f0b0ae1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Comparative Essay/Essay Structure.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 38,
+        "width": 756,
+        "height": 944,
+        "maximize": false,
+        "zoom": 0.5
+      },
+      {
+        "id": "78702043b981daa0",
+        "type": "window",
+        "children": [
+          {
+            "id": "dd53c2b1a23ba2e8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "02c208d34badbd83",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "English/Comparative Essay/Draft 1.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 756,
+        "y": 38,
+        "width": 756,
+        "height": 944,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "02c208d34badbd83",
+  "lastOpenFiles": [
+    "Science/Nuclear Physics/CAT/3.1 Nuclear Physics CAT 2024.pdf",
+    "English/Comparative Essay/Draft 1.md",
+    "English/hotkeys.json",
+    "English/core-plugins-migration.json",
+    "English/themes/AnuPpuccin/src/modules/Base/rtl.scss",
+    "English/themes/AnuPpuccin/src/modules/Base/print.scss",
+    "English/themes/AnuPpuccin/src/modules/Base/pdf.scss",
+    "English/themes/AnuPpuccin/src/modules/Base/index.scss",
+    "English/themes/AnuPpuccin/src/modules/Base/editor.scss",
+    "English/themes/AnuPpuccin/src/modules/Base/graph.scss",
+    "English/themes/AnuPpuccin/src/modules/Base/file-preview.scss",
+    "English/themes/AnuPpuccin/assets/preview-hq.webp",
+    "English/themes/AnuPpuccin/assets/callout.png",
+    "English/themes/AnuPpuccin/assets/gh-colorful-frames-preview.webp",
+    "English/themes/AnuPpuccin/assets/gh-decorations-preview.webp",
+    "English/themes/AnuPpuccin/assets/alternate-tabs.gif",
+    "English/themes/AnuPpuccin/assets/colorschemes/nord-light.webp",
+    "English/themes/AnuPpuccin/assets/colorschemes/everforest-dark.webp",
+    "English/themes/AnuPpuccin/assets/colorschemes/solarized-light.webp",
+    "English/themes/AnuPpuccin/assets/colorschemes/atom-light.webp",
+    "English/themes/AnuPpuccin/assets/colorschemes/gruvbox-dark.webp",
+    "English/themes/AnuPpuccin/README.md",
+    "Math/Notes/Series.md",
+    "Science/Nuclear Physics/CAT/Plan.md",
+    "English/Comparative Essay/Essay Structure.md",
+    "English/Comparative Essay/Comparative Essay 2024 - Guidance and EG Essay.md",
+    "English/Comparative Essay/Plan.md",
+    "English/Comparative Essay/Question.md",
+    "Science/Nuclear Physics/CAT/Untitled.md",
+    "Science/Nuclear Physics/Notes/1.1 Advantages_and_disadvantages_of_nuclear_energy.md",
+    "Science/Nuclear Physics/CAT/PDF Annotations.md",
+    "Science/Nuclear Physics/CAT/Info.md",
+    "Science/Nuclear Physics/Notes/Types of Radiation Video -  notes.md",
+    "Science/Nuclear Physics/Notes/Fission vs Fusion.md",
+    "Images.md",
+    "Science/Nuclear Physics/Notes/Alpha Particle.excalidraw.md",
+    "Math/Notes/Sequences.md",
+    "Math/Term 3 CAT/Notes.md",
+    "Excalidraw/Drawing 2024-08-27 11.01.46.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-27 11.46.44.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-27 11.47.19.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-27 11.49.45_0.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-27 11.49.45.excalidraw.md",
+    "Science/Nuclear Physics/Untitled.md",
+    "English/Comparative Essay/Quotes.md",
+    "Untitled.canvas"
+  ]
+}
