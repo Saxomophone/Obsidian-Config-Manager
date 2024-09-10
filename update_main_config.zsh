@@ -1,9 +1,12 @@
 #!/bin/bash
 
+
 NO_FORMAT="\033[0m"
 C_RED="\033[38;5;9m"
 C_YELLOW="\033[38;5;11m"
 
+path_to_config_manager="$( dirname -- "$( readlink -f -- "$0"; )"; )"
+working_dir="$(pwd)"
 
 source=$1
 destination=$2
@@ -16,7 +19,7 @@ if [[ $# -gt 1 ]]; then
 fi
 
 #check if source path is provided
-if [[ $# -ne ]] 1; then
+if [[ $# -ne 1 ]]; then
   echo -e "${C_RED}Error: source path is required${NO_FORMAT}"
   exit 1
 fi
@@ -43,8 +46,23 @@ if [[ ! -e "$1/.obsidian" ]]; then
   exit 1
 fi
 
+if [[ ! -e "${path_to_config_manager}/main_config/.obsidian/" ]]; then
+  rm -rf "${path_to_config_manager}/main_config/.obsidian"
+fi
 
-rm -rf "/Users/saxophonin/Personal/programming/obsidian_config_manager/main_config/.obsidian"
-cp -r "$1/.obsidian" "/Users/saxophonin/Personal/programming/obsidian_config_manager/main_config"
+cp -r "$1/.obsidian" "${path_to_config_manager}/main_config/.obsidian"
 rm "/Users/saxophonin/Personal/programming/obsidian_config_manager/main_config/.obsidian/workspace.json"
 touch "/Users/saxophonin/Personal/programming/obsidian_config_manager/main_config/.obsidian/workspace.json"
+
+
+#manage git for main_config
+cd "${path_to_config_manager}"
+git reset
+git add main_config/.obsidian
+git commit -m "update main_config at $(date) from $1"
+
+echo "Do you want to push the changes to the remote repository? (y/n)"
+read answer
+if [[ $answer == "y" ]]; then
+  git push origin main
+fi
