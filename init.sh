@@ -6,12 +6,11 @@ C_YELLOW="\033[38;5;11m"
 
 function clean() {
   rm -rf ~/.config/obsidian_config_manager/
-  trap SIGINT
   exit $1
 }
 
 
-trap "clean 1" INT # clean up if user exits with ctrl-c
+trap "clean 1" SIGINT # clean up if user exits with ctrl-c
 
 # if ~/.config/obsidian_config_manager does not exist, create it
 if [[ ! -e ~/.config/obsidian_config_manager ]]; then
@@ -38,6 +37,3 @@ else
   echo -e "${C_RED}Error: invalid source${NO_FORMAT}"
   clean 1
 fi
-
-
-trap SIGINT # remove trap and give user control back
