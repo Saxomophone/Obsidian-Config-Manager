@@ -18,7 +18,13 @@ if [[ ! -e ~/.config/obsidian_config_manager ]]; then
 elif [[  -e ~/.config/obsidian_config_manager/main_config ]]; then
   echo -e "${C_YELLOW}~/.config/obsidian_config_manager already exists${NO_FORMAT}"
   echo -e "If you want to update the main_config, run the update_main_config.zsh script"  # NOTE: change update_main_config.zsh to whatever command is later
-  exit 1
+  read -p "Do you want to overwrite the main_config? (y/n) " -r
+  if [[ $REPLY =~ ^[Yy]$ ]]; then
+    rm -rf ~/.config/obsidian_config_manager/main_config
+    mkdir -p ~/.config/obsidian_config_manager/main_config/.obsidian/    # if the user wants to overwrite the main_config, delete the old one and create a new one
+    echo -e "\n\n"
+  else
+    exit 0 # not an error, just exiting. also shoudln't clean
 fi
 
 echo -e "Where do you want to pull the main_config from? (Github: g, Local: l)"
